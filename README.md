@@ -20,3 +20,6 @@ The compile time takes a while.
 
 You need the a larger heap size for the jvm than the default.  This is configured in: .jvmopts
 
+Todo:  I just need to access the parser functionality and create some tests on the generator
+
+
