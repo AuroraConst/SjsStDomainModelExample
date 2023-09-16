@@ -1,0 +1,40 @@
+{
+    "name": "usingdomainexample",
+    "displayName": "using Domain Model DSL",
+    "version": "2.0.0",
+    "description": "Example language built with Langium",
+    "homepage": "https://langium.org",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+
+    "license": "MIT",
+    "categories": [
+        "Programming Languages"
+    ],
+    "files": [
+        "bin",
+        "out",
+        "src"
+    ],
+    "type": "module",
+    "main": "./out/extension.cjs",
+    "scripts": {},
+    "dependencies": {
+        "langium-domainmodel-dsl": "file:../../../LangiumExamples/examples/domainmodel",
+        "typescript": "^5.2.2"
+    },
+    "devDependencies": {
+        "langium-cli": "~2.0.0"
+    },
+    "volta": {
+        "node": "18.17.1",
+        "npm": "9.6.7"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/eclipse-langium/langium",
+        "directory": "examples/domainmodel"
+    },
+    "bugs": "https://github.com/eclipse-langium/langium/issues"
+}
